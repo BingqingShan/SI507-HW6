@@ -77,26 +77,38 @@ The code comment should look like this:
 ```js
 //This is a comment..
 ```
-
+I have to put // before a comment.
 
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
+Inside <html> and </html> tags, put javascript code into <script>...</script>, once you open this html page in a browser, JavaScript program will "run".
+
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
+console.log() and alert().
+Even though they will both print something out, but console.log() will print in the console which aims to show to developers, while alert() should be used in showing information to users/audiences.
+
 
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
+comment out this code: alert("hello");
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
+Javascript selected h1 tag to write a name here which overrided the original h1 content. So I would like to replace "A name" there in the javascript and change it to my own name.
 
 * **What does the word `document` represent in this code? Explain briefly.**
+According to an article called JavaScript - Document Object Model or DOM (https://www.tutorialspoint.com/javascript/javascript_html_dom.htm), it seems that Document object represents "the HTML document that is displayed in that window".
 
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
+Here, JavaScript selected things with an id "items" and write there with the total number of things that have tag name "li".
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
+It shall be white.
+
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
+
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
