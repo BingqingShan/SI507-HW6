@@ -117,7 +117,7 @@ It shall be white.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 
-Because those boxes use <p> tag which is styled as "background-color: #b3b3b3; border: 3px solid #FFFFFF;" This line of code means give those "box"(<p> tag) a background color #b3b3b3 and a 3px solid border with color #FFFFFF. By assigning different color code to background-color and border in the style, the color will changed accordingly. Here I assigned #00CCFF to background-color and #BFEAFF to the border.
+Because those boxes use "p" tag which is styled as "background-color: #b3b3b3; border: 3px solid #FFFFFF;" This line of code means give those "box"(<p> tag) a background color #b3b3b3 and a 3px solid border with color #FFFFFF. By assigning different color code to background-color and border in the style, the color will changed accordingly. Here I assigned #00CCFF to background-color and #BFEAFF to the border.
 
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
