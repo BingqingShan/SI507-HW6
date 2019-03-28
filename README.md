@@ -142,12 +142,31 @@ I added the button at the bottom of the page.
 * **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
+In JavaScript, there is a function happening when the form is being submitted, which is to check if the input is valid. If the input is not valid, the <div> with id "result" will be selected, and will show '<p class="error">Not valid!</p>' in html. In this line of code, it has class "error" which is assigned color red in the style. If the input is valid, the <div> with id "result" will be selected, and will show '<p class="good">Nice!</p>' in html. In this line of code, it has class "good" which is assigned color blue in the style.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
+I googled "var regex = /^[a-zA-Z]+$/" and saw this webpage:https://www.dofactory.com/tutorial/javascript-regular-expressions. I learned it was a regular expression which can "provide a powerful way to perform pattern matching on certain characters within strings of text." Also, within two "/", it is a pattern, the string starts after ^ and end till $. [a-zA-Z]+ means we search for a string with one or more lower-case character [a-z] or upper-case character [A-Z].
+
+
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
+This is the syntax in JavaScript:
+if (...) {
+  do something...;
+} else {
+  do something...;
+}
+This is the syntax in Python:
+if ...:
+  do something..
+
+else:
+  do something..
+So we can see the logic is very  similar, but the use of punctuation is very different.
+
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
+means fade out in 10000 milliseconds.
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
@@ -155,6 +174,7 @@ I added the button at the bottom of the page.
 $(document).ready(function(){
     $("form").submit(function(event){
 ```
+
 
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
