@@ -82,7 +82,7 @@ I have to put // before a comment.
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 
-Inside ""<html>" and "</html>" tags, put javascript code into <script>...</script>, once you open this html page in a browser, JavaScript program will "run".
+Inside ""html" and "/html" tags, put javascript code into <script>...</script>, once you open this html page in a browser, JavaScript program will "run".
 
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
