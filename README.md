@@ -81,37 +81,46 @@ I have to put // before a comment.
 
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
+
 Inside <html> and </html> tags, put javascript code into <script>...</script>, once you open this html page in a browser, JavaScript program will "run".
 
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
+
 console.log() and alert().
 Even though they will both print something out, but console.log() will print in the console which aims to show to developers, while alert() should be used in showing information to users/audiences.
 
 
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
+
 comment out this code: alert("hello");
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
+
 Javascript selected h1 tag to write a name here which overrided the original h1 content. So I would like to replace "A name" there in the javascript and change it to my own name.
 
 * **What does the word `document` represent in this code? Explain briefly.**
+
 According to an article called JavaScript - Document Object Model or DOM (https://www.tutorialspoint.com/javascript/javascript_html_dom.htm), it seems that Document object represents "the HTML document that is displayed in that window".
 
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
+
 Here, JavaScript selected things with an id "items" and write there with the total number of things that have tag name "li".
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
+
 It shall be white.
 
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
+
 Because those boxes use <p> tag which is styled as "background-color: #b3b3b3; border: 3px solid #FFFFFF;" This line of code means give those "box"(<p> tag) a background color #b3b3b3 and a 3px solid border with color #FFFFFF. By assigning different color code to background-color and border in the style, the color will changed accordingly. Here I assigned #00CCFF to background-color and #BFEAFF to the border.
 
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
+
 While as said on class that once I select and copy paste the "University of Michigan", there will be "go blue" sentence pop up. So I looked back into the code of this part to see how it worked and figured out actually there is a function called copyFunction() which will run once the <li> tag gets coped. The javascript part of this function is written in a way to select "#cheer" and write the words that we want to show there. So I used the same idea and made it happen on McGill University with a new function which is quite similar to the original one but show the word "O Canada" instead.
 
 
@@ -134,6 +143,7 @@ So there is a function called handleClick() added to the button tag which will o
 
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
+
 I added the button at the bottom of the page.
 
 
@@ -142,14 +152,17 @@ I added the button at the bottom of the page.
 * **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
+
 In JavaScript, there is a function happening when the form is being submitted, which is to check if the input is valid. If the input is not valid, the <div> with id "result" will be selected, and will show '<p class="error">Not valid!</p>' in html. In this line of code, it has class "error" which is assigned color red in the style. If the input is valid, the <div> with id "result" will be selected, and will show '<p class="good">Nice!</p>' in html. In this line of code, it has class "good" which is assigned color blue in the style.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
+
 I googled "var regex = /^[a-zA-Z]+$/" and saw this webpage:https://www.dofactory.com/tutorial/javascript-regular-expressions. I learned it was a regular expression which can "provide a powerful way to perform pattern matching on certain characters within strings of text." Also, within two "/", it is a pattern, the string starts after ^ and end till $. [a-zA-Z]+ means we search for a string with one or more lower-case character [a-z] or upper-case character [A-Z].
 
 
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
+
 This is the syntax in JavaScript:
 if (...) {
   do something...;
@@ -166,7 +179,8 @@ So we can see the logic is very  similar, but the use of punctuation is very dif
 
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
-means fade out in 10000 milliseconds.
+
+It means fade out in 10000 milliseconds.
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
@@ -174,6 +188,7 @@ means fade out in 10000 milliseconds.
 $(document).ready(function(){
     $("form").submit(function(event){
 ```
+
 This is a javascript code that does this:
 Once the document is ready, it will run a function that cause another function to run when a submit event of the form occurs. The "event" inside the function is an argument which will be used if currentValue is false, then event.preventDefault() will prevent form from being submitted, otherwise, the form will get submitted.
 
