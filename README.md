@@ -72,9 +72,10 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-The code comment look like this:
+
+The code comment should look like this:
 ```js
-//
+//This is a comment..
 ```
 
 
