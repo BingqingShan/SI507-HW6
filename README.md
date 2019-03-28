@@ -169,7 +169,7 @@ if (...) {
   do something...;
 } else {
   do something...;
-}.
+}
 
 This is the syntax in Python:
 if ...:
