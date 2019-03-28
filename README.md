@@ -122,7 +122,7 @@ Because those boxes use "p" tag which is styled as "background-color: #b3b3b3; b
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
-While as said on class that once I select and copy paste the "University of Michigan", there will be "go blue" sentence pop up. So I looked back into the code of this part to see how it worked and figured out actually there is a function called copyFunction() which will run once the "li" tag gets coped. The javascript part of this function is written in a way to select "#cheer" and write the words that we want to show there. So I used the same idea and made it happen on McGill University with a new function which is quite similar to the original one but show the word "O Canada" instead.
+While as said on class that once I select and copy paste the "University of Michigan", there will be "go blue" sentence pop up. So I looked back into the code of this part to see how it worked and figured out actually there is a function called copyFunction() which will run once the "li" tag gets coped. The javascript part of this function is written in a way to select the part which has id "#cheer" and write the words that we want to show there. So I used the same idea and made it happen on McGill University with a new function which is quite similar to the original one but show the word "O Canada" instead.
 
 
 
@@ -154,7 +154,7 @@ I added the button at the bottom of the page.
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
 
-In JavaScript, there is a function happening when the form is being submitted, which is to check if the input is valid. If the input is not valid, the <div> with id "result" will be selected, and will show '<p class="error">Not valid!</p>' in html. In this line of code, it has class "error" which is assigned color red in the style. If the input is valid, the <div> with id "result" will be selected, and will show '<p class="good">Nice!</p>' in html. In this line of code, it has class "good" which is assigned color blue in the style.
+In JavaScript, there is a function happening when the form is being submitted, which is to check if the input is valid. If the input is not valid, the "div" with id "result" will be selected, and will show "Not valid!" which has a class "error", and got assigned by color red in the style. If the input is valid, the "div" with id "result" will be selected, and will show "Nice!" in html. In this line of code, it has a class "good" which is assigned by color blue in the style.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 
