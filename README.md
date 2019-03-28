@@ -158,7 +158,7 @@ In JavaScript, there is a function happening when the form is being submitted, w
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
 
-I googled "var regex = /^[a-zA-Z]+$/" and saw this webpage:https://www.dofactory.com/tutorial/javascript-regular-expressions. I learned it was a regular expression which can "provide a powerful way to perform pattern matching on certain characters within strings of text." Also, within two "/", it is a pattern, the string starts after ^ and end till $. [a-zA-Z]+ means we search for a string with one or more lower-case character [a-z] or upper-case character [A-Z].
+I googled "var regex = /^[a-zA-Z]+$/" and saw this webpage:https://www.dofactory.com/tutorial/javascript-regular-expressions. I learned it was a regular expression which can "provide a powerful way to perform pattern matching on certain characters within strings of text." Also, within two "/", it is a pattern, the string starts after ^ and ends till $. [a-zA-Z]+ means we search for a string with one or more lower-case character [a-z] or upper-case character [A-Z].
 
 
 
@@ -169,7 +169,8 @@ if (...) {
   do something...;
 } else {
   do something...;
-}
+}.
+
 This is the syntax in Python:
 if ...:
   do something..
