@@ -117,12 +117,12 @@ It shall be white.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 
-Because those boxes use "p" tag which is styled as "background-color: #b3b3b3; border: 3px solid #FFFFFF;" This line of code means give those "box"(<p> tag) a background color #b3b3b3 and a 3px solid border with color #FFFFFF. By assigning different color code to background-color and border in the style, the color will changed accordingly. Here I assigned #00CCFF to background-color and #BFEAFF to the border.
+Because those boxes use "p" tag which is styled as "background-color: #b3b3b3; border: 3px solid #FFFFFF;" This line of code means give those "box"("p" tag) a background color #b3b3b3 and a 3px solid border with color #FFFFFF. By assigning different color code to background-color and border in the style, the color will changed accordingly. Here I assigned #00CCFF to background-color and #BFEAFF to the border.
 
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
-While as said on class that once I select and copy paste the "University of Michigan", there will be "go blue" sentence pop up. So I looked back into the code of this part to see how it worked and figured out actually there is a function called copyFunction() which will run once the <li> tag gets coped. The javascript part of this function is written in a way to select "#cheer" and write the words that we want to show there. So I used the same idea and made it happen on McGill University with a new function which is quite similar to the original one but show the word "O Canada" instead.
+While as said on class that once I select and copy paste the "University of Michigan", there will be "go blue" sentence pop up. So I looked back into the code of this part to see how it worked and figured out actually there is a function called copyFunction() which will run once the "li" tag gets coped. The javascript part of this function is written in a way to select "#cheer" and write the words that we want to show there. So I used the same idea and made it happen on McGill University with a new function which is quite similar to the original one but show the word "O Canada" instead.
 
 
 
