@@ -174,6 +174,8 @@ means fade out in 10000 milliseconds.
 $(document).ready(function(){
     $("form").submit(function(event){
 ```
+This is a javascript code that does this:
+Once the document is ready, it will run a function that cause another function to run when a submit event of the form occurs. The "event" inside the function is an argument which will be used if currentValue is false, then event.preventDefault() will prevent form from being submitted, otherwise, the form will get submitted.
 
 
 
